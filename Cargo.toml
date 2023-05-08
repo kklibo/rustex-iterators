@@ -2,3 +2,9 @@
 name = "rustex-iterators"
 version = "0.1.0"
 edition = "2021"
+authors = ["kklibo"]
+description = "Rust Exercises for learning to use std::iter::Iterator"
+license = "MIT-0"
+repository = "https://github.com/kklibo/rustex-iterators"
+readme = "README.md"
+keywords = ["exercises"]
