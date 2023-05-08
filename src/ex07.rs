@@ -18,8 +18,6 @@ fn first_hex(strs: &[&str]) -> Option<char> {
 
 fn with_iterator(strs: &[&str]) -> Option<char> {
     //a single line goes here
-    strs.iter().flat_map(|x| x.chars()).find(|c| c.is_digit(16))
-    //strs.iter().map(|x| x.chars()).flatten().find(|c| c.is_digit(16))
 }
 
 #[cfg(test)]

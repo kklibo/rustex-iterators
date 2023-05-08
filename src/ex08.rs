@@ -23,7 +23,6 @@ fn is_prefixed(prefix: &[u8], base: &[u8], with_prefix: &[u8]) -> bool {
 
 fn with_iterator(prefix: &[u8], base: &[u8], with_prefix: &[u8]) -> bool {
     //a single line goes here
-    prefix.iter().chain(base).eq(with_prefix)
 }
 
 #[cfg(test)]

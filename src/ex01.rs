@@ -14,7 +14,6 @@ fn imperative(range: Range<u8>) -> Vec<u8> {
 
 fn with_iterator(range: Range<u8>) -> Vec<u8> {
     //a single line goes here
-    range.collect()
 }
 
 #[cfg(test)]

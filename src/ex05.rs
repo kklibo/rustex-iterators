@@ -35,7 +35,6 @@ fn unordered_digest(values: &[u8]) -> Option<u64> {
 
 fn with_iterator(values: &[u8]) -> Option<u64> {
     //a single line goes here
-    values.iter().map(hash).reduce(xor)
 }
 
 #[cfg(test)]

@@ -9,7 +9,6 @@ fn func00(s: &str) -> bool {
 }
 fn func00_concise(s: &str) -> bool {
     // Replace `fold` with a more concise `std::iter::Iterator` method
-    s.chars().all(char::is_numeric)
 }
 
 fn func01(s: &str) -> bool {
@@ -17,7 +16,6 @@ fn func01(s: &str) -> bool {
 }
 fn func01_concise(s: &str) -> bool {
     // Replace `fold` with a more concise `std::iter::Iterator` method
-    s.chars().any(char::is_numeric)
 }
 
 /// Returns an *`Iterator`* that skips the first element.
@@ -30,7 +28,6 @@ fn func02(values: Vec<Vec<u8>>) -> Vec<u8> {
 }
 fn func02_concise(values: Vec<Vec<u8>>) -> Vec<u8> {
     // Replace two `Iterator` methods with one
-    values.into_iter().flat_map(skip_first).collect()
 }
 
 /// If `x` is a valid hex digit (less than 16),
@@ -49,7 +46,6 @@ fn func03(values: &[u8]) -> String {
 }
 fn func03_concise(values: &[u8]) -> String {
     // Replace three `Iterator` methods with one
-    values.iter().filter_map(hexify).collect()
 }
 
 fn func04(values: &[u8]) -> Option<char> {
@@ -62,7 +58,6 @@ fn func04(values: &[u8]) -> Option<char> {
 }
 fn func04_concise(values: &[u8]) -> Option<char> {
     // Replace four `Iterator` methods with one
-    values.iter().find_map(hexify)
 }
 
 #[cfg(test)]

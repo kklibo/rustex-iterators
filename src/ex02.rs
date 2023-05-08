@@ -11,8 +11,6 @@ fn imperative(numbers: &[u8]) -> Vec<bool> {
 
 fn with_iterator(numbers: &[u8]) -> Vec<bool> {
     //a single line goes here
-    //numbers.iter().copied().map(u8::is_power_of_two).collect()
-    numbers.iter().map(|x| x.is_power_of_two()).collect()
 }
 
 #[cfg(test)]

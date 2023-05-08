@@ -28,7 +28,6 @@ fn imperative(a: Range<usize>, b: Range<usize>) -> usize {
 
 fn with_iterator(a: Range<usize>, b: Range<usize>) -> usize {
     //a single line goes here
-    a.zip(b).filter(func).count()
 }
 
 #[cfg(test)]

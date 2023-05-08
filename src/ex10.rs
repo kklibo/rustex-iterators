@@ -37,7 +37,6 @@ fn limited_sort(values: &[u32]) -> (Vec<u32>, Vec<u32>) {
 
 fn with_iterator(values: &[u32]) -> (Vec<u32>, Vec<u32>) {
     //a single line goes here
-    values.iter().scan(0, check_limit).partition(is_even)
 }
 
 #[cfg(test)]

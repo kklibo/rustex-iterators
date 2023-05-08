@@ -18,7 +18,6 @@ fn imperative(numbers: &[u8], count: usize) -> u8 {
 
 fn with_iterator(numbers: &[u8], count: usize) -> u8 {
     //a single line goes here
-    numbers.iter().cycle().take(count).sum()
 }
 
 #[cfg(test)]

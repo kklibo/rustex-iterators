@@ -50,11 +50,6 @@ fn parse_series(strs: &[&str]) -> Result<u32, ()> {
 
 fn with_iterator(strs: &[&str]) -> Result<u32, ()> {
     //a single statement goes here
-    strs.iter()
-        .skip_while(|s| !is_start(s))
-        .skip(1)
-        .take_while(|s| !is_end(s))
-        .try_fold(0, try_add)
 }
 
 #[cfg(test)]

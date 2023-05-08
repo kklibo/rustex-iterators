@@ -22,7 +22,6 @@ fn reverse_and_skip_through(values: &[u8], skip: usize) -> (Vec<usize>, Vec<u8>)
 
 fn with_iterator(values: &[u8], skip: usize) -> (Vec<usize>, Vec<u8>) {
     //a single line goes here
-    values.iter().rev().enumerate().step_by(skip + 1).unzip()
 }
 
 #[cfg(test)]
