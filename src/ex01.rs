@@ -12,6 +12,11 @@ fn imperative(range: Range<u8>) -> Vec<u8> {
     vec
 }
 
+/// Complete this function and run `cargo test` to confirm that
+/// the tests pass.
+///
+/// When you're done, uncomment the next exercise in `lib.rs` to
+/// advance to the next level.
 fn with_iterator(range: Range<u8>) -> Vec<u8> {
     //a single line goes here
 }

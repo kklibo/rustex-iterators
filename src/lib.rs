@@ -1,4 +1,4 @@
-// Exercises: uncomment the next one to continue
+// Exercises: uncomment the next one to continue.
 mod ex01;
 //mod ex02;
 //mod ex03;
