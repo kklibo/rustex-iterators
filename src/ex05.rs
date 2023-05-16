@@ -15,7 +15,8 @@ fn xor(digest: u64, new_hash: u64) -> u64 {
     digest ^ new_hash
 }
 
-/// Create a digest of values that ignores reordering:
+/// Create a digest (a fixed-length representation of a dataset)
+/// of values that ignores reordering:
 /// Hash each value, then XOR the hashes together.
 /// Different groups of values will have different digests,
 /// but the same groups of values will have the same digests

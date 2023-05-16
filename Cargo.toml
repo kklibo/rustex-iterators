@@ -1,6 +1,6 @@
 [package]
 name = "rustex-iterators"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["kklibo"]
 description = "Rust Exercises for learning to use std::iter::Iterator"

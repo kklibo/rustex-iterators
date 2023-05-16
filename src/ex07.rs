@@ -1,8 +1,6 @@
 //! Make the tests pass: use `std::iter::Iterator` methods.
 #![allow(dead_code, clippy::is_digit_ascii_radix)]
 
-//Note: easier than ex06 (move earlier in series?)
-
 /// Read through `strs` in order and return the first
 /// character that is a valid hex digit.
 fn first_hex(strs: &[&str]) -> Option<char> {

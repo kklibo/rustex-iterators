@@ -1,7 +1,7 @@
 //! Make the tests pass: use `std::iter::Iterator` methods.
 #![allow(dead_code)]
 
-/// True IFF `with_prefix` is exactly the same as `base` preceded by `prefix`.
+/// True if and only if `with_prefix` is exactly the same as `base` preceded by `prefix`.
 fn is_prefixed(prefix: &[u8], base: &[u8], with_prefix: &[u8]) -> bool {
     if prefix.len() + base.len() != with_prefix.len() {
         return false;
